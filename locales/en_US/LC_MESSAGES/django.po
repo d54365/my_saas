@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-31 20:41+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apps/accounts/exceptions.py:7 apps/authentication/serializers.py:79
+#: apps/authentication/services/sms_login.py:26
+msgid "用户不存在"
+msgstr ""
+
+#: apps/accounts/exceptions.py:12
+msgid "请先绑定手机号码"
+msgstr ""
+
+#: apps/accounts/serializers.py:112
+msgid "请选择正确的部门"
+msgstr ""
+
+#: apps/accounts/serializers.py:118
+msgid "请选择正确的角色"
+msgstr ""
+
+#: apps/accounts/serializers.py:212
+msgid "上级部门不存在"
+msgstr ""
+
+#: apps/accounts/serializers.py:215
+msgid "部门名称已存在"
+msgstr ""
+
+#: apps/accounts/serializers.py:255
+msgid "请输入权限编码"
+msgstr ""
+
+#: apps/accounts/serializers.py:261
+msgid "请选择正确的上级权限"
+msgstr ""
+
+#: apps/accounts/serializers.py:263
+msgid "上级权限必须是分类节点"
+msgstr ""
+
+#: apps/accounts/serializers.py:267
+msgid "权限编码已被使用"
+msgstr ""
+
+#: apps/accounts/serializers.py:323
+msgid "角色名称已被使用"
+msgstr ""
+
+#: apps/accounts/serializers.py:334
+msgid "请选择正确的权限"
+msgstr ""
+
+#: apps/authentication/exceptions.py:11
+msgid "用户名或密码错误"
+msgstr ""
+
+#: apps/authentication/exceptions.py:20
+msgid "验证码不正确或已过期"
+msgstr ""
+
+#: apps/authentication/exceptions.py:29
+msgid "二维码不存在或已过期"
+msgstr ""
+
+#: apps/authentication/exceptions.py:38
+msgid "错误的 MFA code"
+msgstr ""
+
+#: apps/authentication/exceptions.py:47
+msgid "登录失败次数过多, 您的账号已被锁定, 请稍后再试"
+msgstr ""
+
+#: apps/authentication/exceptions.py:56
+msgid "用户处于禁用状态"
+msgstr ""
+
+#: apps/authentication/serializers.py:47
+msgid "用户未注册"
+msgstr ""
+
+#: apps/authentication/serializers.py:72 apps/authentication/serializers.py:103
+msgid "请先登录"
+msgstr ""
+
+#: apps/authentication/serializers.py:75
+msgid "MFA 未开启短信验证"
+msgstr ""
+
+#: apps/authentication/serializers.py:106
+msgid "MFA未开启 TOTP 验证"
+msgstr ""
+
+#: apps/authentication/serializers.py:120
+msgid "refresh token decode error"
+msgstr ""
+
+#: apps/authentication/serializers.py:124
+msgid "refresh token in blacklist"
+msgstr ""
+
+#: apps/authentication/services/mfa.py:42
+msgid "用户未开启 MFA"
+msgstr ""
+
+#: apps/authentication/services/sms_code_limiter.py:18
+msgid "每60秒只能请求一次代码"
+msgstr ""
+
+#: apps/authentication/services/sms_code_limiter.py:21
+msgid "您已达到每天10个请求的限制"
+msgstr ""
+
+#: apps/authentication/services/sms_code_limiter.py:24
+msgid "来自IP的请求太多. 请稍后再试"
+msgstr ""
+
+#: apps/common/exceptions.py:66
+msgid "服务器开了小差, 请稍后再试"
+msgstr ""
+
+#: apps/common/services/jwt.py:17
+msgid "header is valid"
+msgstr ""
+
+#: apps/common/services/jwt.py:21
+msgid "token is valid"
+msgstr ""
+
+#: apps/common/services/jwt.py:30
+msgid "token in blacklist"
+msgstr ""
+
+#: apps/common/services/jwt.py:41
+msgid "Token contained no recognizable user identification"
+msgstr ""
+
+#: apps/common/services/jwt.py:45
+msgid "user not exists"
+msgstr ""
+
+#: apps/common/services/jwt.py:47
+msgid "账号被禁用中"
+msgstr ""
+
+#: apps/common/validators.py:5
+msgid "邮箱格式错误"
+msgstr ""
+
+#: apps/common/validators.py:6
+msgid "手机号格式错误"
+msgstr ""
+
+#: apps/common/validators.py:7
+msgid "密码需由字母、数字、特殊字符，任意2种组成，8-16位"
+msgstr ""
+
+#: apps/common/validators.py:8
+msgid "邮箱已被使用"
+msgstr "The mail has already been used"
+
+#: apps/common/validators.py:9
+msgid "手机号已被使用"
+msgstr ""
+
+#: apps/common/validators.py:10
+msgid "用户名已被使用"
+msgstr "The username has already been used"

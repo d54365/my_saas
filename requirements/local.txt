@@ -1,0 +1,4 @@
+-r base.txt
+
+pre-commit==4.0.1
+django-debug-toolbar==4.4.6
